@@ -16,6 +16,8 @@ namespace StudyCSharp.Lab
         // If you are new to programming, like me :), you can do this, you are already doing great! 
         // So lets have some fun. :)
 
+        // NOTE: You'll find the solutions in the .cs Files.
+
         /*
          * 01 Calculate Sum
          * For the beginning of this journey, we are starting lightly.
@@ -23,8 +25,8 @@ namespace StudyCSharp.Lab
          * Calculate the sum of a given array.
          *
          * RULES:
-         * -> the function should give you a int back
-         * -> if the array is NULL or empty, give 0 back
+         * > give an int back
+         * > handle the case where the array is NULL or empty
          */
 
         /*
@@ -32,9 +34,21 @@ namespace StudyCSharp.Lab
          * Another easy one. You already have got everything you need, just change some lines.
          * 
          * RULES:
-         * -> the function should give you a int back
-         * -> if the array is NULL or empty, give 0 back
+         * > give an int back
+         * > handle the case where the array is NULL or empty
          */
 
+        /*
+         * 03 Remove Duplicates
+         * This might look like a biiiig jump, but bare with me, it might be easier than you think.
+         * 
+         * Let's get you familiar with Lists and HashSets.
+         * 
+         * RULES:
+         * > give an array back
+         * > each element may only occur once
+         * > the order should be remain
+         * > handle the case where the array is NULL or empty
+         */
     }
 }
