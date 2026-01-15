@@ -26,5 +26,15 @@ namespace StudyCSharp.Lab
          * -> the function should give you a int back
          * -> if the array is NULL or empty, give 0 back
          */
+
+        /*
+         * 02 Find Max Number 
+         * Another easy one. You already have got everything you need, just change some lines.
+         * 
+         * RULES:
+         * -> the function should give you a int back
+         * -> if the array is NULL or empty, give 0 back
+         */
+
     }
 }
