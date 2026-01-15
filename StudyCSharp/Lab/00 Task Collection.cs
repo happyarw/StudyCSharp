@@ -50,5 +50,17 @@ namespace StudyCSharp.Lab
          * > the order should be remain
          * > handle the case where the array is NULL or empty
          */
+
+        /*
+         * 04 Most Frequent Number
+         * Look for the most frequent number in an array.
+         * 
+         * You should look into Dictionarys.
+         * 
+         * RULES:
+         * > return an int
+         * > if several occur frequently, return the first in order
+         * > handle the case where the array is NULL or empty
+         */
     }
 }
