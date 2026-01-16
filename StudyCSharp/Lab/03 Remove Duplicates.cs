@@ -16,11 +16,16 @@ namespace StudyCSharp.Lab
             HashSet<int> set = new HashSet<int>(); 
             List<int> list = new List<int>(); 
             
-            foreach (var item in numbers) 
-                if (!set.Contains(item))
-                { 
-                    set.Add(item); 
-                    list.Add(item); 
+            foreach (var n in numbers)
+                // The exclamation mark (!) negates the condition.
+                // In plain English: if the set does NOT contain this number yet.
+                if (!set.Contains(n))
+                {
+                    // Mark this number as seen so duplicates are skipped next time.
+                    set.Add(n);
+                    // Add the number to the result list.
+                    // We use a List because HashSet does not guarantee order.
+                    list.Add(n); 
                 } 
 
             return list.ToArray(); 

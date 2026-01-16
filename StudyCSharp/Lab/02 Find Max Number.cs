@@ -15,6 +15,7 @@ namespace StudyCSharp.Lab
 
             int result = 0;
 
+            // Check if n is greater than result, if so n is the new result
             foreach (var n in numbers)
                 if (n > result)
                     result = n;

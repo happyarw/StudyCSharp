@@ -10,13 +10,15 @@ namespace StudyCSharp.Lab
     {
         public int Sum(int[] numbers)
         {
+            // If the array is NULL or empty, return
             if (numbers is not { Length: > 0 })
                 return 0;
 
             int result = 0;
 
-            foreach (var number in numbers)
-                result += number;
+            // Foreach number (n) in the array, add it to the result
+            foreach (var n in numbers)
+                result += n;
 
             return result;
         }
